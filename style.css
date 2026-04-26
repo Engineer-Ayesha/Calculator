@@ -1,0 +1,127 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: "Roboto","Poppins";
+}
+#calculator{
+    height: 100vh;
+    width:100%;
+    background-color: #0f172a;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#navbar{
+    height:50px;
+    width:200px;
+    padding: 20px 0px 0px 7px;
+    background-color: #334155;
+    text-align: center;
+    align-self: center;
+    border-radius: 8px;
+}
+#navbar h2{
+    color:#e2e8f0;
+}
+#main-container{
+    height:500px;
+    width:fit-content;
+    background-color: #1e293b;;
+    align-self: center;
+    border-radius: 10px;
+}
+input{
+    height:80px;
+    width:350px;
+    background-color: #0b1220;
+    color: #ffffff;
+    text-align: end;
+    font-size: 25px;
+    margin:20px 0px 0px 25px;
+    border-radius: 8px;
+    border:none;
+}
+input::placeholder{
+    color: #94a3b8;
+    padding-right: 15px;
+}
+#input-container{
+    margin-top: 40px;
+    height:fit-content;
+    width:400px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.inputs{
+    height: 40px;
+    width:50px;
+    background-color: #334155;
+    color: #ffffff;
+    margin: 15px 0px 0px 40px ;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    padding-top:12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+.inputs:hover{
+    cursor: pointer;
+    background-color: #475569;
+}
+#first-row{
+    display: flex;
+    flex-direction: row;
+}
+#second-row{
+    display: flex;
+    flex-direction: row;
+}
+#third-row{
+    display: flex;
+    flex-direction: row;
+}
+#fourth-row{
+    display: flex;
+    flex-direction: row;
+}
+#fifth-row{
+    display: flex;
+    flex-direction: row;
+}
+#multiply{
+    background-color: #f97316;
+    color: #ffffff;
+}
+#subtract{
+    background-color: #f97316;
+    color: #ffffff;
+}
+#add{
+    background-color: #f97316;
+    color: #ffffff;
+}
+#divide{
+    background-color: #f97316;
+    color: #ffffff;
+}
+#modulus{
+    background-color: #f97316;
+    color: #ffffff;
+}
+#equal{
+    background-color: #22c55e;
+    color: #ffffff;
+}
+@media(max-width:599px){
+    #main-container{
+        width:100%;
+    }
+    input{
+        margin-left: 15px;
+    }
+    input::placeholder{
+        padding-right: 10px;
+    }
+}
